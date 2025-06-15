@@ -1,0 +1,978 @@
+0000.023 (0) Opened log file at time: Fri, 13 Jun 2025 01:48:35 +0000 on http://localhost:8882
+0000.026 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.6 WP: 6.8.1 PHP: 8.3.0-dev (wasm, Emscripten emscripten 4.0.5 #1 wasm32) MySQL: 5.5 (max packet size=0) WPLANG: es_ES Server: PHP.wasm safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 87.9M | 91M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG: es_MX.UTF-8 WP Proxy: disabled ZipArchive::addFile: Y
+0000.028 (0) Free space on disk containing Updraft's temporary directory: 43618.3 MB
+0000.034 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.040 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.045 (0) Set semaphore last lock (fd) time to 2025-06-13 01:48:35
+0000.047 (0) Semaphore lock (fd) complete
+0000.055 (0) Backup run: resumption=0, nonce=c5e6d0db066a, file_nonce=c5e6d0db066a begun at=1749779315 (0s ago), job type=backup
+0000.059 (0) Scheduling a resumption (1) after 300 seconds (1749779615) in case this run gets aborted
+0000.070 (0) Checking if we have a zip executable available
+0000.074 (0) Creation of backups of directories: beginning
+0000.125 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.289 (0) Total entities for the zip file: 1985 directories, 9948 files (0 skipped as non-modified), 194.5 MB
+0001.356 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.374 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.392 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.410 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.429 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.447 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.464 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.481 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.500 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.518 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.521 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (21.9 MB, 9948 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0003.961 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 1100 files added (on-disk size: 6605.5 KB)
+0003.980 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 1200 files added (on-disk size: 6605.5 KB)
+0004.000 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 1300 files added (on-disk size: 6605.5 KB)
+0004.019 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 1400 files added (on-disk size: 6605.5 KB)
+0004.037 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 1500 files added (on-disk size: 6605.5 KB)
+0004.055 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 1600 files added (on-disk size: 6605.5 KB)
+0004.072 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 1700 files added (on-disk size: 6605.5 KB)
+0004.089 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 1800 files added (on-disk size: 6605.5 KB)
+0004.106 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 1900 files added (on-disk size: 6605.5 KB)
+0004.125 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 2000 files added (on-disk size: 6605.5 KB)
+0004.129 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.7 MB, 9948 files batched, 1001 (2002) added so far); re-opening (prior size: 6605.5 KB)
+0006.256 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 2100 files added (on-disk size: 11823.9 KB)
+0006.274 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 2200 files added (on-disk size: 11823.9 KB)
+0006.292 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 2300 files added (on-disk size: 11823.9 KB)
+0006.311 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 2400 files added (on-disk size: 11823.9 KB)
+0006.330 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 2500 files added (on-disk size: 11823.9 KB)
+0006.350 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 2600 files added (on-disk size: 11823.9 KB)
+0006.370 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 2700 files added (on-disk size: 11823.9 KB)
+0006.390 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 2800 files added (on-disk size: 11823.9 KB)
+0006.410 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 2900 files added (on-disk size: 11823.9 KB)
+0006.428 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 3000 files added (on-disk size: 11823.9 KB)
+0006.432 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14 MB, 9948 files batched, 1001 (3003) added so far); re-opening (prior size: 11823.9 KB)
+0008.733 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 3100 files added (on-disk size: 17628.9 KB)
+0008.753 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 3200 files added (on-disk size: 17628.9 KB)
+0008.781 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 3300 files added (on-disk size: 17628.9 KB)
+0008.802 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 3400 files added (on-disk size: 17628.9 KB)
+0008.821 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 3500 files added (on-disk size: 17628.9 KB)
+0008.830 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 9948 files batched, 536 (3539) added so far); re-opening (prior size: 17628.9 KB)
+0011.582 (0) A useful amount of data was added after this amount of zip processing: 2.9 s (normalised: 2.9 s, rate: 8691.4 KB/s)
+0011.586 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.9470000267029, normalised_time=2.9454313786515, max_time=11.5609998703, data points known=1, old_max_bytes=26214400, new_max_bytes=61735882)
+0011.615 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 3600 files added (on-disk size: 23090.3 KB)
+0011.638 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 3700 files added (on-disk size: 23090.3 KB)
+0011.660 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 3800 files added (on-disk size: 23090.3 KB)
+0011.681 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 3900 files added (on-disk size: 23090.3 KB)
+0011.702 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 4000 files added (on-disk size: 23090.3 KB)
+0011.737 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 4100 files added (on-disk size: 23090.3 KB)
+0011.759 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 4200 files added (on-disk size: 23090.3 KB)
+0011.779 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 4300 files added (on-disk size: 23090.3 KB)
+0011.799 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 4400 files added (on-disk size: 23090.3 KB)
+0011.821 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 4500 files added (on-disk size: 23090.3 KB)
+0011.833 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (27 MB, 9948 files batched, 1001 (4540) added so far); re-opening (prior size: 23090.3 KB)
+0015.983 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 4600 files added (on-disk size: 31271.2 KB)
+0016.005 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 4700 files added (on-disk size: 31271.2 KB)
+0016.026 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 4800 files added (on-disk size: 31271.2 KB)
+0016.049 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 4900 files added (on-disk size: 31271.2 KB)
+0016.073 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 5000 files added (on-disk size: 31271.2 KB)
+0016.096 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 5100 files added (on-disk size: 31271.2 KB)
+0016.121 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 5200 files added (on-disk size: 31271.2 KB)
+0016.143 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 5300 files added (on-disk size: 31271.2 KB)
+0016.166 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 5400 files added (on-disk size: 31271.2 KB)
+0016.189 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 5500 files added (on-disk size: 31271.2 KB)
+0016.199 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.3 MB, 9948 files batched, 1001 (5541) added so far); re-opening (prior size: 31271.2 KB)
+0019.030 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 5600 files added (on-disk size: 39417.8 KB)
+0019.054 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 5700 files added (on-disk size: 39417.8 KB)
+0019.076 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 5800 files added (on-disk size: 39417.8 KB)
+0019.097 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 5900 files added (on-disk size: 39417.8 KB)
+0019.123 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 6000 files added (on-disk size: 39417.8 KB)
+0019.147 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 6100 files added (on-disk size: 39417.8 KB)
+0019.173 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 6200 files added (on-disk size: 39417.8 KB)
+0019.200 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 6300 files added (on-disk size: 39417.8 KB)
+0019.223 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 6400 files added (on-disk size: 39417.8 KB)
+0019.249 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 6500 files added (on-disk size: 39417.8 KB)
+0019.260 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.2 MB, 9948 files batched, 1001 (6542) added so far); re-opening (prior size: 39417.8 KB)
+0020.770 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 6600 files added (on-disk size: 44753.1 KB)
+0020.795 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 6700 files added (on-disk size: 44753.1 KB)
+0020.825 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 6800 files added (on-disk size: 44753.1 KB)
+0020.853 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 6900 files added (on-disk size: 44753.1 KB)
+0020.877 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 7000 files added (on-disk size: 44753.1 KB)
+0020.903 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 7100 files added (on-disk size: 44753.1 KB)
+0020.929 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 7200 files added (on-disk size: 44753.1 KB)
+0020.969 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 7300 files added (on-disk size: 44753.1 KB)
+0020.996 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 7400 files added (on-disk size: 44753.1 KB)
+0021.025 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 7500 files added (on-disk size: 44753.1 KB)
+0021.040 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.6 MB, 9948 files batched, 1001 (7543) added so far); re-opening (prior size: 44753.1 KB)
+0023.759 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 7600 files added (on-disk size: 49996.4 KB)
+0023.783 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 7700 files added (on-disk size: 49996.4 KB)
+0023.801 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 7800 files added (on-disk size: 49996.4 KB)
+0023.821 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 7900 files added (on-disk size: 49996.4 KB)
+0023.843 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 8000 files added (on-disk size: 49996.4 KB)
+0023.865 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 8100 files added (on-disk size: 49996.4 KB)
+0023.886 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 8200 files added (on-disk size: 49996.4 KB)
+0023.906 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 8300 files added (on-disk size: 49996.4 KB)
+0023.924 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 8400 files added (on-disk size: 49996.4 KB)
+0023.944 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 8500 files added (on-disk size: 49996.4 KB)
+0023.954 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.6 MB, 9948 files batched, 1001 (8544) added so far); re-opening (prior size: 49996.4 KB)
+0025.803 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 8600 files added (on-disk size: 53450.5 KB)
+0025.822 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 8700 files added (on-disk size: 53450.5 KB)
+0025.840 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 8800 files added (on-disk size: 53450.5 KB)
+0025.856 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 8900 files added (on-disk size: 53450.5 KB)
+0025.872 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 9000 files added (on-disk size: 53450.5 KB)
+0025.888 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 9100 files added (on-disk size: 53450.5 KB)
+0025.906 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 9200 files added (on-disk size: 53450.5 KB)
+0025.927 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 9300 files added (on-disk size: 53450.5 KB)
+0025.948 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 9400 files added (on-disk size: 53450.5 KB)
+0025.968 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 9500 files added (on-disk size: 53450.5 KB)
+0025.978 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (25.4 MB, 9948 files batched, 1001 (9545) added so far); re-opening (prior size: 53450.5 KB)
+0028.792 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 9600 files added (on-disk size: 61918.2 KB)
+0028.820 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 9700 files added (on-disk size: 61918.2 KB)
+0028.845 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 9800 files added (on-disk size: 61918.2 KB)
+0028.869 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.tmp: 9900 files added (on-disk size: 61918.2 KB)
+0029.770 (0) Creating zip file manifest (backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.list-temp.tmp)
+0029.819 (0) Successfully created zip file manifest (size: 846914)
+0030.295 (0) Created plugins zip (0) - 62724.6 KB in 30.2 s (2079.4 KB/s) (sha1: 37ff38a381d0680fbcd527ba401a3721c4d5c14a, sha256: de7bed7b40f3a75af62d4bfe11c26a0935b328ecbbad8494e132af035608e40d)
+0030.333 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0030.334 (0) No remote despatch: user chose no remote backup service
+0030.336 (0) Recording as successfully uploaded: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip
+0030.339 (0) Deleting zip manifest (backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip.list.tmp)
+0030.345 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0030.348 (0) Number of backup sets in history: 1; groups (db): 1
+0030.350 (0) Examining (for databases) backup set with group_id=0, nonce=bef29915aff6, datestamp=1749437892 (Jun 09 2025 02:58:12)
+0030.351 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0030.351 (0) Number of backup sets in history: 1; groups (files): 1
+0030.353 (0) Examining (for files) backup set with nonce=bef29915aff6, datestamp=1749437892 (Jun 09 2025 02:58:12)
+0030.353 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0030.353 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0030.353 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0030.353 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0030.353 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0030.354 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0030.363 (0) Beginning creation of dump of themes (split every: 400 MB)
+0030.801 (0) Total entities for the zip file: 246 directories, 1632 files (0 skipped as non-modified), 12.3 MB
+0030.868 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0030.886 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0030.901 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0030.918 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0030.936 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0030.954 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0030.971 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0030.991 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0031.010 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0031.028 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0031.031 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.9 MB, 1632 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0032.627 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-themes.zip.tmp: 1100 files added (on-disk size: 3377.7 KB)
+0032.645 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-themes.zip.tmp: 1200 files added (on-disk size: 3377.7 KB)
+0032.665 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-themes.zip.tmp: 1300 files added (on-disk size: 3377.7 KB)
+0032.684 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-themes.zip.tmp: 1400 files added (on-disk size: 3377.7 KB)
+0032.705 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-themes.zip.tmp: 1500 files added (on-disk size: 3377.7 KB)
+0032.722 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-themes.zip.tmp: 1600 files added (on-disk size: 3377.7 KB)
+0033.307 (0) Creating zip file manifest (backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-themes.zip.list-temp.tmp)
+0033.328 (0) Successfully created zip file manifest (size: 122838)
+0033.395 (0) Created themes zip (0) - 5069.8 KB in 3 s (1674.8 KB/s) (sha1: adedcec7eea8f679d797270434ea98f0b667e778, sha256: ea6594ca1b0fedfa8e976c28e55e05220bcdd85508479234ef8de20f81f6d550)
+0033.421 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0033.423 (0) No remote despatch: user chose no remote backup service
+0033.425 (0) Recording as successfully uploaded: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-themes.zip
+0033.428 (0) Deleting zip manifest (backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-themes.zip.list.tmp)
+0033.432 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0033.434 (0) Number of backup sets in history: 1; groups (db): 1
+0033.435 (0) Examining (for databases) backup set with group_id=0, nonce=bef29915aff6, datestamp=1749437892 (Jun 09 2025 02:58:12)
+0033.435 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0033.435 (0) Number of backup sets in history: 1; groups (files): 1
+0033.437 (0) Examining (for files) backup set with nonce=bef29915aff6, datestamp=1749437892 (Jun 09 2025 02:58:12)
+0033.437 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0033.437 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0033.437 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0033.437 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0033.437 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.438 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0033.449 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0033.450 (0) Looking for candidates to backup in: /var/www/html/wp-content/uploads
+0033.453 (0) finding files: 2016: adding to list (1)
+0033.454 (0) finding files: 2018: adding to list (2)
+0033.456 (0) finding files: 2019: adding to list (3)
+0033.457 (0) finding files: 2024: adding to list (4)
+0033.459 (0) finding files: 2025: adding to list (5)
+0033.460 (0) finding files: ac_assets: adding to list (6)
+0033.462 (0) finding files: ai-builder: adding to list (7)
+0033.464 (0) finding files: ast-block-templates-json: adding to list (8)
+0033.466 (0) finding files: astra-sites: adding to list (9)
+0033.467 (0) finding files: blocksy: adding to list (10)
+0033.469 (0) finding files: complianz: adding to list (11)
+0033.470 (0) finding files: elementor: adding to list (12)
+0033.472 (0) finding files: essential-addons-elementor: adding to list (13)
+0033.473 (0) finding files: happyaddons: adding to list (14)
+0033.475 (0) finding files: rank-math: adding to list (15)
+0033.477 (0) finding files: rsssl: adding to list (16)
+0033.478 (0) finding files: smush: adding to list (17)
+0033.480 (0) finding files: theplus-addons: adding to list (18)
+0033.481 (0) finding files: uag-plugin: adding to list (19)
+0033.483 (0) finding files: unlimited_elements_cache: adding to list (20)
+0033.484 (0) finding files: wpcf7_uploads: adding to list (21)
+0033.487 (0) finding files: wpcode: adding to list (22)
+0033.488 (0) finding files: wpforms: adding to list (23)
+0033.490 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0033.586 (0) Total entities for the zip file: 54 directories, 606 files (0 skipped as non-modified), 141.5 MB
+0033.630 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0033.644 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 58.9 MB added on this batch (59.3 MB, 606 files batched, 184 (184) added so far); re-opening (prior size: 0 KB)
+0033.952 (0) A useful amount of data was added after this amount of zip processing: 1.3 s (normalised: 1.3 s, rate: 46094.6 KB/s)
+0033.957 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.316999912262, normalised_time=1.3079388759281, max_time=33.930999994278, data points known=1, old_max_bytes=61735882, new_max_bytes=209715200)
+0033.963 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-uploads.zip.tmp: 200 files added (on-disk size: 60745.5 KB)
+0033.978 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-uploads.zip.tmp: 300 files added (on-disk size: 60745.5 KB)
+0033.994 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-uploads.zip.tmp: 400 files added (on-disk size: 60745.5 KB)
+0034.011 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-uploads.zip.tmp: 500 files added (on-disk size: 60745.5 KB)
+0034.029 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-uploads.zip.tmp: 600 files added (on-disk size: 60745.5 KB)
+0036.466 (0) Creating zip file manifest (backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-uploads.zip.list-temp.tmp)
+0036.495 (0) Successfully created zip file manifest (size: 47163)
+0037.347 (0) Created uploads zip (0) - 117659.2 KB in 3.9 s (30537 KB/s) (sha1: d3916bae137cf60761309bac41b20259fc704b33, sha256: 5a5324b705a8ac1094177b3ff312369ff9b8b2c351a2daf80b3bba1c1e6423a8)
+0037.357 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0037.359 (0) No remote despatch: user chose no remote backup service
+0037.360 (0) Recording as successfully uploaded: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-uploads.zip
+0037.364 (0) Deleting zip manifest (backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-uploads.zip.list.tmp)
+0037.369 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0037.371 (0) Number of backup sets in history: 1; groups (db): 1
+0037.373 (0) Examining (for databases) backup set with group_id=0, nonce=bef29915aff6, datestamp=1749437892 (Jun 09 2025 02:58:12)
+0037.374 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0037.374 (0) Number of backup sets in history: 1; groups (files): 1
+0037.376 (0) Examining (for files) backup set with nonce=bef29915aff6, datestamp=1749437892 (Jun 09 2025 02:58:12)
+0037.376 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0037.376 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0037.376 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0037.376 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0037.376 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0037.378 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0037.387 (0) No backup of mu-plugins: excluded by user's options
+0037.391 (0) Beginning backup of other directories found in the content directory (index: 0)
+0037.394 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0037.395 (0) Looking for candidates to backup in: /var/www/html/wp-content
+0037.397 (0) finding files: database: adding to list (1)
+0037.399 (0) finding files: db.php: adding to list (2)
+0037.400 (0) finding files: debug.log: skipping: excluded by options
+0037.402 (0) finding files: fonts: adding to list (3)
+0037.404 (0) finding files: index.php: adding to list (4)
+0037.406 (0) finding files: languages: adding to list (5)
+0037.408 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0037.410 (0) finding files: plugins: skipping: this is the plugins directory
+0037.412 (0) finding files: themes: skipping: this is the themes directory
+0037.413 (0) finding files: updraft: skipping: this is the updraft directory
+0037.415 (0) finding files: upgrade: skipping: excluded by options
+0037.416 (0) finding files: upgrade-temp-backup: adding to list (6)
+0037.418 (0) finding files: uploads: skipping: this is the uploads directory
+0037.420 (0) finding files: wflogs: adding to list (7)
+0037.485 (0) Total entities for the zip file: 7 directories, 542 files (0 skipped as non-modified), 95.7 MB
+0037.532 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0037.549 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0037.565 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0037.582 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0037.597 (0) Zip: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0041.750 (0) Creating zip file manifest (backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-others.zip.list-temp.tmp)
+0041.767 (0) Successfully created zip file manifest (size: 42522)
+0041.880 (0) Created others zip (0) - 14433 KB in 4.5 s (3239.7 KB/s) (sha1: fcce51a70c4e83971a6777d7b57979e91ef126fa, sha256: 1baab3b0b67f962c9b0b3e8a39f40a3db0fa673d872d8f5efd893aaf91091d60)
+0041.890 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0041.891 (0) No remote despatch: user chose no remote backup service
+0041.893 (0) Recording as successfully uploaded: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-others.zip
+0041.896 (0) Deleting zip manifest (backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-others.zip.list.tmp)
+0041.901 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0041.903 (0) Number of backup sets in history: 1; groups (db): 1
+0041.905 (0) Examining (for databases) backup set with group_id=0, nonce=bef29915aff6, datestamp=1749437892 (Jun 09 2025 02:58:12)
+0041.906 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0041.906 (0) Number of backup sets in history: 1; groups (files): 1
+0041.908 (0) Examining (for files) backup set with nonce=bef29915aff6, datestamp=1749437892 (Jun 09 2025 02:58:12)
+0041.908 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0041.908 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0041.908 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0041.908 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0041.908 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0041.909 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0041.925 (0) Saving backup status to database (elements: 8)
+0041.930 (0) Beginning creation of database dump (WordPress DB)
+0041.933 (0) SQL compatibility mode is: 0
+0042.021 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0042.025 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0042.027 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0042.038 (0) Table wp_options: Total expected rows (via COUNT): 910
+0042.119 (0) Table wp_options: Rows added in this batch (next record: 13326): 906 (uncompressed bytes in this segment=2659878) in 0.10 seconds
+0042.135 (0) Table wp_options: finishing file(s) (2, 418.8 KB)
+0042.148 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0042.151 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0042.157 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0042.164 (0) Table wp_users: Total expected rows (via COUNT): 1
+0042.168 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0042.181 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=423) in 0.04 seconds
+0042.204 (0) Table wp_users: finishing file(s) (2, 0.3 KB)
+0042.220 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0042.224 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0042.229 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0042.241 (0) Table wp_usermeta: Total expected rows (via COUNT): 76
+0042.244 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0042.254 (0) Table wp_usermeta: Rows added in this batch (next record: 76): 76 (uncompressed bytes in this segment=8513) in 0.03 seconds
+0042.281 (0) Table wp_usermeta: finishing file(s) (2, 3 KB)
+0042.292 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0042.294 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0042.301 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0042.317 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 20
+0042.319 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0042.335 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 5143): 20 (uncompressed bytes in this segment=7848) in 0.05 seconds
+0042.354 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.2 KB)
+0042.365 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0042.368 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0042.374 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0042.378 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0042.389 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=300) in 0.03 seconds
+0042.405 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.2 KB)
+0042.415 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0042.419 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0042.421 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0042.425 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 3
+0042.427 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0042.437 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=419) in 0.02 seconds
+0042.450 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.3 KB)
+0042.465 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0042.467 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0042.470 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0042.474 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 58
+0042.476 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0042.494 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 62): 58 (uncompressed bytes in this segment=5676) in 0.03 seconds
+0042.507 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.9 KB)
+0042.518 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0042.520 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0042.522 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0042.528 (0) Table wp_commentmeta: Total expected rows (via COUNT): 2
+0042.530 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0042.537 (0) Table wp_commentmeta: Rows added in this batch (next record: 4): 2 (uncompressed bytes in this segment=366) in 0.02 seconds
+0042.576 (0) Table wp_commentmeta: finishing file(s) (2, 0.3 KB)
+0042.590 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0042.595 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0042.598 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0042.602 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0042.629 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0042.637 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=696) in 0.05 seconds
+0042.655 (0) Table wp_comments: finishing file(s) (2, 0.4 KB)
+0042.664 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0042.666 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0042.668 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0042.671 (0) Table wp_links: Total expected rows (via COUNT): 0
+0042.678 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=215) in 0.01 seconds
+0042.688 (0) Table wp_links: finishing file(s) (2, 0.2 KB)
+0042.696 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0042.699 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0042.701 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0042.795 (0) Table wp_postmeta: Total expected rows (via COUNT): 12550
+0043.666 (0) Table wp_postmeta: Rows added in this batch (next record: 22796): 12550 (uncompressed bytes in this segment=58601122) in 0.97 seconds
+0043.689 (0) Table wp_postmeta: finishing file(s) (2, 3911.6 KB)
+0043.702 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0043.705 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0043.709 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0043.756 (0) Table wp_posts: Total expected rows (via COUNT): 2221
+0044.104 (0) Table wp_posts: Rows added in this batch (next record: 7545): 2221 (uncompressed bytes in this segment=20437726) in 0.40 seconds
+0044.118 (0) Table wp_posts: finishing file(s) (2, 707.6 KB)
+0044.127 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.129 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.131 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.132 (0) Table wp_term_relationships: Total expected rows (approximate): 20
+0044.137 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 38 (uncompressed bytes in this segment=950) in 0.01 seconds
+0044.147 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0044.154 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.157 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.159 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.165 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 140
+0044.167 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.174 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 143): 140 (uncompressed bytes in this segment=5446) in 0.02 seconds
+0044.196 (0) Table wp_term_taxonomy: finishing file(s) (2, 1.2 KB)
+0044.210 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.214 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.218 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.230 (0) Table wp_termmeta: Total expected rows (via COUNT): 9
+0044.232 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.241 (0) Table wp_termmeta: Rows added in this batch (next record: 10): 9 (uncompressed bytes in this segment=683) in 0.03 seconds
+0044.257 (0) Table wp_termmeta: finishing file(s) (2, 0.3 KB)
+0044.270 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.273 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.276 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.282 (0) Table wp_terms: Total expected rows (via COUNT): 140
+0044.285 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.295 (0) Table wp_terms: Rows added in this batch (next record: 143): 140 (uncompressed bytes in this segment=5008) in 0.03 seconds
+0044.309 (0) Table wp_terms: finishing file(s) (2, 1.8 KB)
+0044.312 (0) Skipping table (lacks our prefix (wp_)): _mysql_data_types_cache
+0044.316 (0) Skipping table (lacks our prefix (wp_)): sqlite_sequence
+0044.328 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.331 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.334 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.342 (0) Table wp_addonlibrary_addons: Total expected rows (via COUNT): 0
+0044.350 (0) Table wp_addonlibrary_addons: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=285) in 0.02 seconds
+0044.370 (0) Table wp_addonlibrary_addons: finishing file(s) (2, 0.2 KB)
+0044.383 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.386 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.388 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.393 (0) Table wp_addonlibrary_categories: Total expected rows (via COUNT): 0
+0044.397 (0) Table wp_addonlibrary_categories: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=305) in 0.02 seconds
+0044.407 (0) Table wp_addonlibrary_categories: finishing file(s) (2, 0.2 KB)
+0044.417 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.419 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.421 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.424 (0) Table wp_cmplz_cookiebanners: Total expected rows (via COUNT): 1
+0044.427 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.434 (0) Table wp_cmplz_cookiebanners: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=5161) in 0.02 seconds
+0044.445 (0) Table wp_cmplz_cookiebanners: finishing file(s) (2, 1.6 KB)
+0044.456 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.461 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.463 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.467 (0) Table wp_cmplz_cookies: Total expected rows (via COUNT): 50
+0044.470 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.480 (0) Table wp_cmplz_cookies: Rows added in this batch (next record: 50): 50 (uncompressed bytes in this segment=8358) in 0.03 seconds
+0044.494 (0) Table wp_cmplz_cookies: finishing file(s) (2, 1.6 KB)
+0044.503 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.505 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.507 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.511 (0) Table wp_cmplz_dnsmpd: Total expected rows (via COUNT): 0
+0044.516 (0) Table wp_cmplz_dnsmpd: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=250) in 0.01 seconds
+0044.526 (0) Table wp_cmplz_dnsmpd: finishing file(s) (2, 0.2 KB)
+0044.534 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.536 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.538 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.541 (0) Table wp_cmplz_services: Total expected rows (via COUNT): 10
+0044.543 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.549 (0) Table wp_cmplz_services: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=1322) in 0.02 seconds
+0044.558 (0) Table wp_cmplz_services: finishing file(s) (2, 0.5 KB)
+0044.566 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.569 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.570 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.572 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0044.579 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=230) in 0.01 seconds
+0044.588 (0) Table wp_e_events: finishing file(s) (2, 0.2 KB)
+0044.597 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.599 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.600 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.603 (0) Table wp_eb_form_settings: Total expected rows (via COUNT): 0
+0044.606 (0) Table wp_eb_form_settings: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=270) in 0.01 seconds
+0044.616 (0) Table wp_eb_form_settings: finishing file(s) (2, 0.2 KB)
+0044.624 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.626 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.628 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.634 (0) Table wp_ff_scheduled_actions: Total expected rows (via COUNT): 0
+0044.636 (0) Table wp_ff_scheduled_actions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=290) in 0.01 seconds
+0044.649 (0) Table wp_ff_scheduled_actions: finishing file(s) (2, 0.2 KB)
+0044.657 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.660 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.662 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.668 (0) Table wp_fluentform_entry_details: Total expected rows (via COUNT): 0
+0044.671 (0) Table wp_fluentform_entry_details: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=310) in 0.02 seconds
+0044.683 (0) Table wp_fluentform_entry_details: finishing file(s) (2, 0.2 KB)
+0044.690 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.693 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.695 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.697 (0) Table wp_fluentform_form_analytics: Total expected rows (via COUNT): 0
+0044.699 (0) Table wp_fluentform_form_analytics: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=315) in 0.01 seconds
+0044.709 (0) Table wp_fluentform_form_analytics: finishing file(s) (2, 0.2 KB)
+0044.716 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.718 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.720 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.728 (0) Table wp_fluentform_form_meta: Total expected rows (via COUNT): 5
+0044.730 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.736 (0) Table wp_fluentform_form_meta: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=2514) in 0.02 seconds
+0044.749 (0) Table wp_fluentform_form_meta: finishing file(s) (2, 1.2 KB)
+0044.757 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.759 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.760 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.766 (0) Table wp_fluentform_forms: Total expected rows (via COUNT): 1
+0044.767 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.770 (0) Table wp_fluentform_forms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=6729) in 0.01 seconds
+0044.782 (0) Table wp_fluentform_forms: finishing file(s) (2, 1.5 KB)
+0044.789 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.791 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.793 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.798 (0) Table wp_fluentform_logs: Total expected rows (via COUNT): 0
+0044.803 (0) Table wp_fluentform_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=265) in 0.01 seconds
+0044.815 (0) Table wp_fluentform_logs: finishing file(s) (2, 0.2 KB)
+0044.822 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.824 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.825 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.831 (0) Table wp_fluentform_submission_meta: Total expected rows (via COUNT): 0
+0044.836 (0) Table wp_fluentform_submission_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=320) in 0.01 seconds
+0044.848 (0) Table wp_fluentform_submission_meta: finishing file(s) (2, 0.2 KB)
+0044.855 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.857 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.858 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.864 (0) Table wp_fluentform_submissions: Total expected rows (via COUNT): 0
+0044.870 (0) Table wp_fluentform_submissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=300) in 0.02 seconds
+0044.882 (0) Table wp_fluentform_submissions: finishing file(s) (2, 0.2 KB)
+0044.889 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.891 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.893 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.896 (0) Table wp_litespeed_url: Total expected rows (via COUNT): 0
+0044.900 (0) Table wp_litespeed_url: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=255) in 0.01 seconds
+0044.909 (0) Table wp_litespeed_url: finishing file(s) (2, 0.2 KB)
+0044.917 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.920 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.922 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.924 (0) Table wp_litespeed_url_file: Total expected rows (via COUNT): 0
+0044.927 (0) Table wp_litespeed_url_file: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=280) in 0.01 seconds
+0044.937 (0) Table wp_litespeed_url_file: finishing file(s) (2, 0.2 KB)
+0044.944 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.946 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.949 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.951 (0) Table wp_rank_math_analytics_gsc: Total expected rows (via COUNT): 0
+0044.954 (0) Table wp_rank_math_analytics_gsc: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=305) in 0.01 seconds
+0044.965 (0) Table wp_rank_math_analytics_gsc: finishing file(s) (2, 0.2 KB)
+0044.973 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0044.975 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0044.977 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0044.983 (0) Table wp_rank_math_analytics_inspections: Total expected rows (via COUNT): 0
+0044.986 (0) Table wp_rank_math_analytics_inspections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=345) in 0.01 seconds
+0044.997 (0) Table wp_rank_math_analytics_inspections: finishing file(s) (2, 0.2 KB)
+0045.005 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.007 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.009 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.011 (0) Table wp_rank_math_analytics_objects: Total expected rows (via COUNT): 11
+0045.013 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.019 (0) Table wp_rank_math_analytics_objects: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=1976) in 0.02 seconds
+0045.027 (0) Table wp_rank_math_analytics_objects: finishing file(s) (2, 0.7 KB)
+0045.034 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.036 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.038 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.040 (0) Table wp_rank_math_internal_links: Total expected rows (via COUNT): 23
+0045.042 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.046 (0) Table wp_rank_math_internal_links: Rows added in this batch (next record: 6972): 23 (uncompressed bytes in this segment=1916) in 0.01 seconds
+0045.054 (0) Table wp_rank_math_internal_links: finishing file(s) (2, 0.6 KB)
+0045.061 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.063 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.065 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.067 (0) Table wp_rank_math_internal_meta: Total expected rows (via COUNT): 22
+0045.069 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.073 (0) Table wp_rank_math_internal_meta: Rows added in this batch (next record: 7103): 22 (uncompressed bytes in this segment=787) in 0.01 seconds
+0045.081 (0) Table wp_rank_math_internal_meta: finishing file(s) (2, 0.3 KB)
+0045.088 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.090 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.092 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.094 (0) Table wp_smush_dir_images: Total expected rows (via COUNT): 0
+0045.099 (0) Table wp_smush_dir_images: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=270) in 0.01 seconds
+0045.108 (0) Table wp_smush_dir_images: finishing file(s) (2, 0.2 KB)
+0045.116 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.119 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.121 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.127 (0) Table wp_trp_gettext_es_es: Total expected rows (via COUNT): 1338
+0045.140 (0) Table wp_trp_gettext_es_es: Rows added in this batch (next record: 1338): 1338 (uncompressed bytes in this segment=97369) in 0.03 seconds
+0045.153 (0) Table wp_trp_gettext_es_es: finishing file(s) (2, 22.3 KB)
+0045.160 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.162 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.163 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.169 (0) Table wp_trp_gettext_original_meta: Total expected rows (via COUNT): 0
+0045.174 (0) Table wp_trp_gettext_original_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=315) in 0.02 seconds
+0045.185 (0) Table wp_trp_gettext_original_meta: finishing file(s) (2, 0.2 KB)
+0045.192 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.194 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.196 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.198 (0) Table wp_trp_gettext_original_strings: Total expected rows (via COUNT): 1338
+0045.213 (0) Table wp_trp_gettext_original_strings: Rows added in this batch (next record: 1338): 1338 (uncompressed bytes in this segment=83862) in 0.02 seconds
+0045.225 (0) Table wp_trp_gettext_original_strings: finishing file(s) (2, 14.3 KB)
+0045.237 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.243 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.246 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.250 (0) Table wp_wfauditevents: Total expected rows (via COUNT): 0
+0045.253 (0) Table wp_wfauditevents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=255) in 0.02 seconds
+0045.265 (0) Table wp_wfauditevents: finishing file(s) (2, 0.2 KB)
+0045.274 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.276 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.278 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.281 (0) Table wp_wfblockediplog: Total expected rows (approximate): 20
+0045.284 (0) Table wp_wfblockediplog: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=261) in 0.01 seconds
+0045.294 (0) Table wp_wfblockediplog: finishing file(s) (2, 0.2 KB)
+0045.302 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.305 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.307 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.310 (0) Table wp_wfconfig: Total expected rows (approximate): 20
+0045.314 (0) Table wp_wfconfig: Rows added in this batch (next record: 1000): 213 (uncompressed bytes in this segment=9695) in 0.01 seconds
+0045.325 (0) Table wp_wfconfig: finishing file(s) (2, 2.7 KB)
+0045.336 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.338 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.341 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.343 (0) Table wp_wfcrawlers: Total expected rows (approximate): 20
+0045.346 (0) Table wp_wfcrawlers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=241) in 0.01 seconds
+0045.359 (0) Table wp_wfcrawlers: finishing file(s) (2, 0.2 KB)
+0045.368 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.370 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.372 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.374 (0) Table wp_wffilechanges: Total expected rows (approximate): 20
+0045.378 (0) Table wp_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=256) in 0.01 seconds
+0045.388 (0) Table wp_wffilechanges: finishing file(s) (2, 0.2 KB)
+0045.399 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.402 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.405 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.408 (0) Table wp_wffilemods: Total expected rows (approximate): 20
+0045.410 (0) Table wp_wffilemods: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=241) in 0.01 seconds
+0045.420 (0) Table wp_wffilemods: finishing file(s) (2, 0.2 KB)
+0045.429 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.431 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.433 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.436 (0) Table wp_wfhits: Total expected rows (via COUNT): 0
+0045.438 (0) Table wp_wfhits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=220) in 0.01 seconds
+0045.449 (0) Table wp_wfhits: finishing file(s) (2, 0.2 KB)
+0045.458 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.460 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.462 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.465 (0) Table wp_wfhoover: Total expected rows (via COUNT): 0
+0045.468 (0) Table wp_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=230) in 0.01 seconds
+0045.476 (0) Table wp_wfhoover: finishing file(s) (2, 0.2 KB)
+0045.484 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.486 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.488 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.492 (0) Table wp_wfissues: Total expected rows (via COUNT): 0
+0045.495 (0) Table wp_wfissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=230) in 0.01 seconds
+0045.505 (0) Table wp_wfissues: finishing file(s) (2, 0.2 KB)
+0045.512 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.514 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.516 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.518 (0) Table wp_wfknownfilelist: Total expected rows (via COUNT): 0
+0045.521 (0) Table wp_wfknownfilelist: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=265) in 0.01 seconds
+0045.529 (0) Table wp_wfknownfilelist: finishing file(s) (2, 0.2 KB)
+0045.536 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.538 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.540 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.542 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 20
+0045.544 (0) Table wp_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=281) in 0.01 seconds
+0045.553 (0) Table wp_wflivetraffichuman: finishing file(s) (2, 0.2 KB)
+0045.569 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.572 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.573 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.575 (0) Table wp_wflocs: Total expected rows (approximate): 20
+0045.577 (0) Table wp_wflocs: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=221) in 0.01 seconds
+0045.585 (0) Table wp_wflocs: finishing file(s) (2, 0.2 KB)
+0045.593 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.594 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.596 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.599 (0) Table wp_wflogins: Total expected rows (via COUNT): 0
+0045.601 (0) Table wp_wflogins: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=230) in 0.01 seconds
+0045.609 (0) Table wp_wflogins: finishing file(s) (2, 0.2 KB)
+0045.617 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.619 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.620 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.623 (0) Table wp_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+0045.625 (0) Table wp_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=270) in 0.01 seconds
+0045.634 (0) Table wp_wfls_2fa_secrets: finishing file(s) (2, 0.2 KB)
+0045.641 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.643 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.645 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.647 (0) Table wp_wfls_role_counts: Total expected rows (approximate): 20
+0045.649 (0) Table wp_wfls_role_counts: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=271) in 0.01 seconds
+0045.660 (0) Table wp_wfls_role_counts: finishing file(s) (2, 0.2 KB)
+0045.669 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.671 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.674 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.676 (0) Table wp_wfls_settings: Total expected rows (approximate): 20
+0045.679 (0) Table wp_wfls_settings: Rows added in this batch (next record: 1000): 26 (uncompressed bytes in this segment=1678) in 0.01 seconds
+0045.689 (0) Table wp_wfls_settings: finishing file(s) (2, 0.7 KB)
+0045.697 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.699 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.701 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.703 (0) Table wp_wfnotifications: Total expected rows (approximate): 20
+0045.705 (0) Table wp_wfnotifications: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=266) in 0.01 seconds
+0045.716 (0) Table wp_wfnotifications: finishing file(s) (2, 0.2 KB)
+0045.723 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.726 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.728 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.730 (0) Table wp_wfpendingissues: Total expected rows (via COUNT): 0
+0045.733 (0) Table wp_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=265) in 0.01 seconds
+0045.743 (0) Table wp_wfpendingissues: finishing file(s) (2, 0.2 KB)
+0045.752 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.754 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.756 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.757 (0) Table wp_wfreversecache: Total expected rows (approximate): 20
+0045.760 (0) Table wp_wfreversecache: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=261) in 0.01 seconds
+0045.769 (0) Table wp_wfreversecache: finishing file(s) (2, 0.2 KB)
+0045.777 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.779 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.781 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.783 (0) Table wp_wfsecurityevents: Total expected rows (via COUNT): 0
+0045.786 (0) Table wp_wfsecurityevents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=270) in 0.01 seconds
+0045.795 (0) Table wp_wfsecurityevents: finishing file(s) (2, 0.2 KB)
+0045.804 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.806 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.809 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.811 (0) Table wp_wfsnipcache: Total expected rows (via COUNT): 0
+0045.814 (0) Table wp_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=245) in 0.01 seconds
+0045.824 (0) Table wp_wfsnipcache: finishing file(s) (2, 0.2 KB)
+0045.831 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.833 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.835 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.837 (0) Table wp_wfstatus: Total expected rows (via COUNT): 0
+0045.840 (0) Table wp_wfstatus: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=230) in 0.01 seconds
+0045.849 (0) Table wp_wfstatus: finishing file(s) (2, 0.2 KB)
+0045.857 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.859 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.861 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.863 (0) Table wp_wftrafficrates: Total expected rows (approximate): 20
+0045.866 (0) Table wp_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=261) in 0.01 seconds
+0045.874 (0) Table wp_wftrafficrates: finishing file(s) (2, 0.2 KB)
+0045.882 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.884 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.886 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.888 (0) Table wp_wfwaffailures: Total expected rows (via COUNT): 0
+0045.890 (0) Table wp_wfwaffailures: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=255) in 0.01 seconds
+0045.900 (0) Table wp_wfwaffailures: finishing file(s) (2, 0.2 KB)
+0045.907 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.909 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.911 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.913 (0) Table wp_wgm_icons: Total expected rows (via COUNT): 0
+0045.916 (0) Table wp_wgm_icons: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=235) in 0.01 seconds
+0045.924 (0) Table wp_wgm_icons: finishing file(s) (2, 0.2 KB)
+0045.932 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.933 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.935 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.937 (0) Table wp_wgm_markers: Total expected rows (via COUNT): 0
+0045.940 (0) Table wp_wgm_markers: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=245) in 0.01 seconds
+0045.950 (0) Table wp_wgm_markers: finishing file(s) (2, 0.2 KB)
+0045.958 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.960 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0045.961 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0045.967 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 27
+0045.969 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.976 (0) Table wp_wpforms_logs: Rows added in this batch (next record: 27): 27 (uncompressed bytes in this segment=3053) in 0.02 seconds
+0045.988 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.5 KB)
+0045.996 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0045.998 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0046.000 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0046.007 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0046.012 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=290) in 0.02 seconds
+0046.023 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.2 KB)
+0046.031 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0046.033 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0046.035 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0046.038 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0046.043 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=270) in 0.01 seconds
+0046.052 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.2 KB)
+0046.059 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0046.061 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0046.063 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0046.070 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 2
+0046.071 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0046.077 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=465) in 0.02 seconds
+0046.089 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.3 KB)
+0046.096 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0046.098 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0046.100 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0046.102 (0) Table wp_wpmailsmtp_debug_events: Total expected rows (via COUNT): 1
+0046.104 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0046.107 (0) Table wp_wpmailsmtp_debug_events: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1382) in 0.01 seconds
+0046.117 (0) Table wp_wpmailsmtp_debug_events: finishing file(s) (2, 0.7 KB)
+0046.124 (0) PHP event: code E_WARNING: Undefined array key 1 (line 2298, wp-content/plugins/updraftplus/backup.php)
+0046.126 (0) PHP event: code E_DEPRECATED: strrpos(): Passing null to parameter #1 ($haystack) of type string is deprecated (line 21, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0046.128 (0) PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 2301, wp-content/plugins/updraftplus/backup.php)
+0046.134 (0) Table wp_wpmailsmtp_tasks_meta: Total expected rows (via COUNT): 0
+0046.140 (0) Table wp_wpmailsmtp_tasks_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=295) in 0.02 seconds
+0046.151 (0) Table wp_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.2 KB)
+0046.153 (0) PHP event: code E_WARNING: filemtime(): stat failed for /var/www/html/wp-content/updraft/backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0046.157 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_options.table.tmpr13327.gz (1/77/fopen): adding to final database dump
+0046.170 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_options.table.gz (2/77/fopen): adding to final database dump
+0046.173 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_users.table.tmpr2.gz (3/77/fopen): adding to final database dump
+0046.175 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_users.table.gz (4/77/fopen): adding to final database dump
+0046.177 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_usermeta.table.tmpr77.gz (5/77/fopen): adding to final database dump
+0046.179 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_usermeta.table.gz (6/77/fopen): adding to final database dump
+0046.181 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_actionscheduler_actions.table.tmpr5144.gz (7/77/fopen): adding to final database dump
+0046.183 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_actionscheduler_actions.table.gz (8/77/fopen): adding to final database dump
+0046.184 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/77/fopen): adding to final database dump
+0046.186 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_actionscheduler_claims.table.gz (10/77/fopen): adding to final database dump
+0046.188 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_actionscheduler_groups.table.tmpr4.gz (11/77/fopen): adding to final database dump
+0046.190 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_actionscheduler_groups.table.gz (12/77/fopen): adding to final database dump
+0046.191 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_actionscheduler_logs.table.tmpr63.gz (13/77/fopen): adding to final database dump
+0046.193 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_actionscheduler_logs.table.gz (14/77/fopen): adding to final database dump
+0046.195 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_commentmeta.table.tmpr5.gz (15/77/fopen): adding to final database dump
+0046.197 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_commentmeta.table.gz (16/77/fopen): adding to final database dump
+0046.198 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_comments.table.tmpr2.gz (17/77/fopen): adding to final database dump
+0046.200 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_comments.table.gz (18/77/fopen): adding to final database dump
+0046.202 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_links.table.tmpr0.gz (19/77/fopen): adding to final database dump
+0046.204 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_links.table.gz (20/77/fopen): adding to final database dump
+0046.206 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_postmeta.table.tmpr22797.gz (21/77/fopen): adding to final database dump
+0046.315 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_postmeta.table.gz (22/77/fopen): adding to final database dump
+0046.318 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_posts.table.tmpr7546.gz (23/77/fopen): adding to final database dump
+0046.338 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_posts.table.gz (24/77/fopen): adding to final database dump
+0046.341 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_term_relationships.table.tmpr100001.gz (25/77/fopen): adding to final database dump
+0046.343 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_term_relationships.table.gz (26/77/fopen): adding to final database dump
+0046.344 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_term_taxonomy.table.tmpr144.gz (27/77/fopen): adding to final database dump
+0046.346 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_term_taxonomy.table.gz (28/77/fopen): adding to final database dump
+0046.348 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_termmeta.table.tmpr11.gz (29/77/fopen): adding to final database dump
+0046.349 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_termmeta.table.gz (30/77/fopen): adding to final database dump
+0046.351 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_terms.table.tmpr144.gz (31/77/fopen): adding to final database dump
+0046.353 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_terms.table.gz (32/77/fopen): adding to final database dump
+0046.355 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_addonlibrary_addons.table.tmpr0.gz (33/77/fopen): adding to final database dump
+0046.357 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_addonlibrary_addons.table.gz (34/77/fopen): adding to final database dump
+0046.358 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_addonlibrary_categories.table.tmpr0.gz (35/77/fopen): adding to final database dump
+0046.360 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_addonlibrary_categories.table.gz (36/77/fopen): adding to final database dump
+0046.362 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_cmplz_cookiebanners.table.tmpr2.gz (37/77/fopen): adding to final database dump
+0046.364 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_cmplz_cookiebanners.table.gz (38/77/fopen): adding to final database dump
+0046.366 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_cmplz_cookies.table.tmpr51.gz (39/77/fopen): adding to final database dump
+0046.368 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_cmplz_cookies.table.gz (40/77/fopen): adding to final database dump
+0046.370 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_cmplz_dnsmpd.table.tmpr0.gz (41/77/fopen): adding to final database dump
+0046.372 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_cmplz_dnsmpd.table.gz (42/77/fopen): adding to final database dump
+0046.373 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_cmplz_services.table.tmpr11.gz (43/77/fopen): adding to final database dump
+0046.375 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_cmplz_services.table.gz (44/77/fopen): adding to final database dump
+0046.377 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_e_events.table.tmpr0.gz (45/77/fopen): adding to final database dump
+0046.378 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_e_events.table.gz (46/77/fopen): adding to final database dump
+0046.380 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_eb_form_settings.table.tmpr0.gz (47/77/fopen): adding to final database dump
+0046.382 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_eb_form_settings.table.gz (48/77/fopen): adding to final database dump
+0046.384 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_ff_scheduled_actions.table.tmpr0.gz (49/77/fopen): adding to final database dump
+0046.386 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_ff_scheduled_actions.table.gz (50/77/fopen): adding to final database dump
+0046.387 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_fluentform_entry_details.table.tmpr0.gz (51/77/fopen): adding to final database dump
+0046.389 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_fluentform_entry_details.table.gz (52/77/fopen): adding to final database dump
+0046.391 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_fluentform_form_analytics.table.tmpr0.gz (53/77/fopen): adding to final database dump
+0046.393 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_fluentform_form_analytics.table.gz (54/77/fopen): adding to final database dump
+0046.395 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_fluentform_form_meta.table.tmpr6.gz (55/77/fopen): adding to final database dump
+0046.396 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_fluentform_form_meta.table.gz (56/77/fopen): adding to final database dump
+0046.399 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_fluentform_forms.table.tmpr2.gz (57/77/fopen): adding to final database dump
+0046.401 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_fluentform_forms.table.gz (58/77/fopen): adding to final database dump
+0046.402 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_fluentform_logs.table.tmpr0.gz (59/77/fopen): adding to final database dump
+0046.404 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_fluentform_logs.table.gz (60/77/fopen): adding to final database dump
+0046.406 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_fluentform_submission_meta.table.tmpr0.gz (61/77/fopen): adding to final database dump
+0046.408 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_fluentform_submission_meta.table.gz (62/77/fopen): adding to final database dump
+0046.409 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_fluentform_submissions.table.tmpr0.gz (63/77/fopen): adding to final database dump
+0046.411 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_fluentform_submissions.table.gz (64/77/fopen): adding to final database dump
+0046.413 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_litespeed_url.table.tmpr0.gz (65/77/fopen): adding to final database dump
+0046.415 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_litespeed_url.table.gz (66/77/fopen): adding to final database dump
+0046.417 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_litespeed_url_file.table.tmpr0.gz (67/77/fopen): adding to final database dump
+0046.418 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_litespeed_url_file.table.gz (68/77/fopen): adding to final database dump
+0046.420 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_rank_math_analytics_gsc.table.tmpr0.gz (69/77/fopen): adding to final database dump
+0046.422 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_rank_math_analytics_gsc.table.gz (70/77/fopen): adding to final database dump
+0046.424 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_rank_math_analytics_inspections.table.tmpr0.gz (71/77/fopen): adding to final database dump
+0046.426 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_rank_math_analytics_inspections.table.gz (72/77/fopen): adding to final database dump
+0046.427 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_rank_math_analytics_objects.table.tmpr12.gz (73/77/fopen): adding to final database dump
+0046.429 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_rank_math_analytics_objects.table.gz (74/77/fopen): adding to final database dump
+0046.431 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_rank_math_internal_links.table.tmpr6973.gz (75/77/fopen): adding to final database dump
+0046.433 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_rank_math_internal_links.table.gz (76/77/fopen): adding to final database dump
+0046.435 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_rank_math_internal_meta.table.tmpr7104.gz (77/77/fopen): adding to final database dump
+0046.437 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_rank_math_internal_meta.table.gz (78/77/fopen): adding to final database dump
+0046.438 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_smush_dir_images.table.tmpr0.gz (79/77/fopen): adding to final database dump
+0046.440 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_smush_dir_images.table.gz (80/77/fopen): adding to final database dump
+0046.442 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_trp_gettext_es_es.table.tmpr1339.gz (81/77/fopen): adding to final database dump
+0046.444 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_trp_gettext_es_es.table.gz (82/77/fopen): adding to final database dump
+0046.446 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_trp_gettext_original_meta.table.tmpr0.gz (83/77/fopen): adding to final database dump
+0046.448 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_trp_gettext_original_meta.table.gz (84/77/fopen): adding to final database dump
+0046.450 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_trp_gettext_original_strings.table.tmpr1339.gz (85/77/fopen): adding to final database dump
+0046.452 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_trp_gettext_original_strings.table.gz (86/77/fopen): adding to final database dump
+0046.454 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfauditevents.table.tmpr0.gz (87/77/fopen): adding to final database dump
+0046.456 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfauditevents.table.gz (88/77/fopen): adding to final database dump
+0046.458 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfblockediplog.table.tmpr1.gz (89/77/fopen): adding to final database dump
+0046.460 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfblockediplog.table.gz (90/77/fopen): adding to final database dump
+0046.462 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfconfig.table.tmpr1001.gz (91/77/fopen): adding to final database dump
+0046.463 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfconfig.table.gz (92/77/fopen): adding to final database dump
+0046.465 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfcrawlers.table.tmpr1.gz (93/77/fopen): adding to final database dump
+0046.467 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfcrawlers.table.gz (94/77/fopen): adding to final database dump
+0046.468 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wffilechanges.table.tmpr1.gz (95/77/fopen): adding to final database dump
+0046.470 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wffilechanges.table.gz (96/77/fopen): adding to final database dump
+0046.472 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wffilemods.table.tmpr1.gz (97/77/fopen): adding to final database dump
+0046.474 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wffilemods.table.gz (98/77/fopen): adding to final database dump
+0046.476 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfhits.table.tmpr0.gz (99/77/fopen): adding to final database dump
+0046.480 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfhits.table.gz (100/77/fopen): adding to final database dump
+0046.482 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfhoover.table.tmpr0.gz (101/77/fopen): adding to final database dump
+0046.484 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfhoover.table.gz (102/77/fopen): adding to final database dump
+0046.485 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfissues.table.tmpr0.gz (103/77/fopen): adding to final database dump
+0046.487 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfissues.table.gz (104/77/fopen): adding to final database dump
+0046.489 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfknownfilelist.table.tmpr0.gz (105/77/fopen): adding to final database dump
+0046.491 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfknownfilelist.table.gz (106/77/fopen): adding to final database dump
+0046.493 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wflivetraffichuman.table.tmpr1.gz (107/77/fopen): adding to final database dump
+0046.495 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wflivetraffichuman.table.gz (108/77/fopen): adding to final database dump
+0046.496 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wflocs.table.tmpr1.gz (109/77/fopen): adding to final database dump
+0046.498 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wflocs.table.gz (110/77/fopen): adding to final database dump
+0046.500 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wflogins.table.tmpr0.gz (111/77/fopen): adding to final database dump
+0046.502 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wflogins.table.gz (112/77/fopen): adding to final database dump
+0046.503 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfls_2fa_secrets.table.tmpr0.gz (113/77/fopen): adding to final database dump
+0046.506 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfls_2fa_secrets.table.gz (114/77/fopen): adding to final database dump
+0046.508 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfls_role_counts.table.tmpr1.gz (115/77/fopen): adding to final database dump
+0046.509 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfls_role_counts.table.gz (116/77/fopen): adding to final database dump
+0046.511 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfls_settings.table.tmpr1001.gz (117/77/fopen): adding to final database dump
+0046.513 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfls_settings.table.gz (118/77/fopen): adding to final database dump
+0046.515 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfnotifications.table.tmpr1.gz (119/77/fopen): adding to final database dump
+0046.517 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfnotifications.table.gz (120/77/fopen): adding to final database dump
+0046.518 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfpendingissues.table.tmpr0.gz (121/77/fopen): adding to final database dump
+0046.520 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfpendingissues.table.gz (122/77/fopen): adding to final database dump
+0046.522 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfreversecache.table.tmpr1.gz (123/77/fopen): adding to final database dump
+0046.524 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfreversecache.table.gz (124/77/fopen): adding to final database dump
+0046.525 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfsecurityevents.table.tmpr0.gz (125/77/fopen): adding to final database dump
+0046.527 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfsecurityevents.table.gz (126/77/fopen): adding to final database dump
+0046.529 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfsnipcache.table.tmpr0.gz (127/77/fopen): adding to final database dump
+0046.531 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfsnipcache.table.gz (128/77/fopen): adding to final database dump
+0046.532 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfstatus.table.tmpr0.gz (129/77/fopen): adding to final database dump
+0046.534 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfstatus.table.gz (130/77/fopen): adding to final database dump
+0046.536 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wftrafficrates.table.tmpr1.gz (131/77/fopen): adding to final database dump
+0046.538 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wftrafficrates.table.gz (132/77/fopen): adding to final database dump
+0046.540 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfwaffailures.table.tmpr0.gz (133/77/fopen): adding to final database dump
+0046.542 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wfwaffailures.table.gz (134/77/fopen): adding to final database dump
+0046.544 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wgm_icons.table.tmpr0.gz (135/77/fopen): adding to final database dump
+0046.545 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wgm_icons.table.gz (136/77/fopen): adding to final database dump
+0046.547 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wgm_markers.table.tmpr0.gz (137/77/fopen): adding to final database dump
+0046.549 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wgm_markers.table.gz (138/77/fopen): adding to final database dump
+0046.551 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wpforms_logs.table.tmpr28.gz (139/77/fopen): adding to final database dump
+0046.553 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wpforms_logs.table.gz (140/77/fopen): adding to final database dump
+0046.555 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (141/77/fopen): adding to final database dump
+0046.557 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wpforms_payment_meta.table.gz (142/77/fopen): adding to final database dump
+0046.559 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wpforms_payments.table.tmpr0.gz (143/77/fopen): adding to final database dump
+0046.561 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wpforms_payments.table.gz (144/77/fopen): adding to final database dump
+0046.562 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wpforms_tasks_meta.table.tmpr3.gz (145/77/fopen): adding to final database dump
+0046.564 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wpforms_tasks_meta.table.gz (146/77/fopen): adding to final database dump
+0046.566 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wpmailsmtp_debug_events.table.tmpr2.gz (147/77/fopen): adding to final database dump
+0046.568 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wpmailsmtp_debug_events.table.gz (148/77/fopen): adding to final database dump
+0046.570 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wpmailsmtp_tasks_meta.table.tmpr0.gz (149/77/fopen): adding to final database dump
+0046.573 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db-table-wp_wpmailsmtp_tasks_meta.table.gz (150/77/fopen): adding to final database dump
+0046.575 (0) Ocurrió un error al tratar de recuperar el estado de la rutina (<div style="clear:both">&nbsp;</div>
+<div class="queries" style="clear:both;margin-bottom:2px;border:red dotted thin;">
+<p>MySQL query:</p>
+<p>SHOW FUNCTION STATUS WHERE DB = 'database_name_here'</p>
+<p>Queries made or created this session were:</p>
+<ol>
+<li>Executing: BEGIN | (no parameters)</li>
+<li>Executing: ROLLBACK | (no parameters)</li>
+</ol>
+</div>
+<div style="clear:both;margin-bottom:2px;border:red dotted thin;" class="error_message" style="border-bottom:dotted blue thin;">
+Error occurred at line 4166 in Function <code>handle_error</code>. Error message was: Unknown show type: FUNCTION STATUS.
+</div>
+<p>Backtrace:</p>
+<pre>#0 /var/www/html/wp-content/mu-plugins/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-db.php(287): WP_SQLite_Translator->get_error_message()
+#1 /var/www/html/wp-includes/class-wpdb.php(3146): WP_SQLite_DB->query('SHOW FUNCTION S...')
+#2 /var/www/html/wp-content/plugins/updraftplus/includes/class-database-utility.php(666): wpdb->get_results('SHOW FUNCTION S...', 'ARRAY_A')
+#3 /var/www/html/wp-content/plugins/updraftplus/backup.php(2025): UpdraftPlus_Database_Utility::get_stored_routines()
+#4 /var/www/html/wp-content/plugins/updraftplus/class-updraftplus.php(2635): UpdraftPlus_Backup->backup_db('begun', 'wp', Array)
+#5 /var/www/html/wp-content/plugins/updraftplus/class-updraftplus.php(3580): UpdraftPlus->backup_resume(0, 'c5e6d0db066a')
+#6 /var/www/html/wp-content/plugins/updraftplus/class-updraftplus.php(3123): UpdraftPlus->boot_backup(1, 1, Array, false, Array, Array)
+#7 /var/www/html/wp-includes/class-wp-hook.php(324): UpdraftPlus->backup_all(Array)
+#8 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#9 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /var/www/html/wp-content/plugins/updraftplus/admin.php(2547): do_action('updraft_backupn...', Array)
+#11 /var/www/html/wp-content/plugins/updraftplus/includes/class-commands.php(140): UpdraftPlus_Admin->request_backupnow(Array, Array)
+#12 /var/www/html/wp-content/plugins/updraftplus/admin.php(1838): UpdraftPlus_Commands->backupnow(Array)
+#13 /var/www/html/wp-includes/class-wp-hook.php(324): UpdraftPlus_Admin->updraft_ajax_handler('')
+#14 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#15 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#16 /var/www/html/wp-admin/admin-ajax.php(192): do_action('wp_ajax_updraft...')
+#17 {main}</pre>
+ - SHOW FUNCTION STATUS WHERE DB = 'database_name_here')
+0046.578 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db.gz: finished writing out complete database file (5105.6 KB)
+0046.643 (0) Total database tables backed up: 75 (backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db.gz, size: 5228209, sha1: 238836e878e01c2e570581b99be1963457f943db, sha256: d6f99cc2e8478b30cedf53e920a4ddcb734e0f4a11c86f90e572961aeec61d45)
+0046.658 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-plugins.zip: plugins: This file has already been successfully processed
+0046.660 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-themes.zip: themes: This file has already been successfully processed
+0046.662 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-uploads.zip: uploads: This file has already been successfully processed
+0046.664 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-others.zip: others: This file has already been successfully processed
+0046.666 (0) backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db.gz: db: This file has not yet been successfully uploaded: will queue
+0046.669 (0) Saving backup history. Total backup size: 200.2 MB
+0046.675 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0046.684 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0046.686 (0) No remote despatch: user chose no remote backup service
+0046.688 (0) Recording as successfully uploaded: backup_2025-06-13-0348_CUSIDOR_TOWING_c5e6d0db066a-db.gz
+0046.696 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0046.699 (0) Number of backup sets in history: 2; groups (db): 1
+0046.701 (0) Examining (for databases) backup set with group_id=0, nonce=c5e6d0db066a, datestamp=1749779315 (Jun 13 2025 01:48:35)
+0046.704 (0) This backup set is the backup set just made, so will not be deleted.
+0046.704 (0) Examining (for databases) backup set with group_id=0, nonce=bef29915aff6, datestamp=1749437892 (Jun 09 2025 02:58:12)
+0046.704 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0046.704 (0) Number of backup sets in history: 2; groups (files): 1
+0046.706 (0) Examining (for files) backup set with nonce=c5e6d0db066a, datestamp=1749779315 (Jun 13 2025 01:48:35)
+0046.706 (0) This backup set is the backup set just made, so will not be deleted.
+0046.708 (0) This backup set is the backup set just made, so will not be deleted.
+0046.708 (0) This backup set is the backup set just made, so will not be deleted.
+0046.708 (0) This backup set is the backup set just made, so will not be deleted.
+0046.708 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.711 (0) Examining (for files) backup set with nonce=bef29915aff6, datestamp=1749437892 (Jun 09 2025 02:58:12)
+0046.711 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0046.711 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0046.711 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0046.711 (0) This backup set (1749437892) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0046.711 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0046.711 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0046.717 (0) Resume backup (c5e6d0db066a, 0): finish run
+0046.725 (0) Decremented the semaphore (fd) by 1
+0046.729 (0) Semaphore (fd) unlocked
+0046.731 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0046.742 (0) The backup succeeded and is now complete
+0046.746 (0) No email will/can be sent - the user has not configured an email address.
+0046.749 (0) La copia de seguridad se ha realizado correctamente y se ha completado
